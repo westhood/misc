@@ -1,0 +1,4 @@
+Feature Branch
+--------------
+
+![feature-branch-diff](http://nvie.com/img/2010/01/merge-without-ff.png)

@@ -1,0 +1,4 @@
+Hotfix Branch
+--------------
+
+![hotfix-branch](http://nvie.com/img/2010/01/hotfix-branches1.png)

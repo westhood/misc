@@ -1,0 +1,12 @@
+Initiate you workspace
+----------------------
+
+* **Clone from another repository**
+
+        $git clone <repo>
+
+* **Or create your own repository**
+
+        $mkdir Cord
+        $cd Cord
+        $git init 

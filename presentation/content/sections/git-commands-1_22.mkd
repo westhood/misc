@@ -1,0 +1,12 @@
+Git Commands
+-----------
+
+**Fortunately, core commands set of git is much more smaller.**
+
+    basic:
+        add, commit, diff, checkout, check, pull, push, rebase, merge,
+        log, status, init, clone 
+
+    adavnced:
+        bitsect, stash, blame ...
+

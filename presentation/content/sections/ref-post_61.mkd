@@ -1,0 +1,6 @@
+Git Work Flow (Or Branching Model ?)
+-----------------------------------
+
+**The example is took from this great post:**
+
+ [http://nvie.com/posts/a-successful-git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)

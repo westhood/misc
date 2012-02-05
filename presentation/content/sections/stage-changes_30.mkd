@@ -1,0 +1,15 @@
+Stage your changes
+------------------
+
+**Use git add to put new file (track it) or changes into _index_.**
+
+    $touch README
+    $git add README
+
+**Some shortcuts:**
+
+    #Recurisve add all files in the directory
+    $git add .
+    #Add all tracked files
+    $git add -u
+

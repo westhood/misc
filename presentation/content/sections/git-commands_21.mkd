@@ -1,0 +1,7 @@
+Git Commands
+-----------
+
+**Git is composed of over hundred seperate programm as its entire tool set.
+It looks _horrifying_ at first glance.**
+
+![git commands](media/git-commands.png)

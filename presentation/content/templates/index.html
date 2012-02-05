@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block sections %}
+
+{% for section in sections %}
+    <section class="slide" id="{{ section.id }}">
+    {{ section.content }}    
+    </section>
+{% endfor %}
+
+{% endblock %}
