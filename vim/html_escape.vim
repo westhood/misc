@@ -3,9 +3,10 @@
 
 function! EscapeHtml()
 python << EOF
-import vim, cgi
-escape = cgi.escape(vim.eval('@"'))
-vim.command('let @" = "%s"' % escape)
+import vim, cgi, traceback
+encoding = vim.eval("&encoding")
+escape = cgi.escape(vim.eval('@"').decode(encoding)).encode('ascii', 'xmlcharrefreplace')
+vim.command("let @\" = '%s'" % escape.replace("'","''"))
 EOF
     let s = @"
     let @" = ""
@@ -16,8 +17,9 @@ endfunction
 function! UnEscapeHtml()
 python << EOF
 import vim, HTMLParser
-unescape = HTMLParser.HTMLParser().unescape(vim.eval('@"'))
-vim.command('let @" = "%s"' % unescape)
+encoding = vim.eval("&encoding")
+unescape = HTMLParser.HTMLParser().unescape(vim.eval('@"').encode(encoding))
+vim.command("let @\" = '%s'" % unescape.encode(encoding).replace("'","''"))
 EOF
     let s = @"
     let @" = ""
