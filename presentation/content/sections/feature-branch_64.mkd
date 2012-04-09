@@ -1,4 +1,13 @@
 Feature Branch
 --------------
 
-![feature-branch](http://nvie.com/img/2009/12/fb.png)
+<table>
+<tr>
+<td width="50%">
+<img src="http://nvie.com/img/2009/12/fb.png"></img>
+</td>
+<td width="50%">
+<img src="http://nvie.com/img/2010/01/merge-without-ff.png"></img>
+</td>
+</tr>
+</table>

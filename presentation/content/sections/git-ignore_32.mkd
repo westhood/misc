@@ -1,0 +1,19 @@
+Ignore files
+------------------------------------
+
+* **Put .gitignore at root of your repositroy**
+
+        $ls -a
+        .  ..  deploy  .git  .gitignore  .gitmodules  src  utils
+
+  **It is suggested to add .gitignore to your repositroy**
+
+* **Use wildcards in .gitignore to exclude files you don't want to track**
+        
+        $cat .gitignore 
+        *.pyc
+        *~
+        *swp
+        .*
+        src/cord/static/
+        src/cord/media/

@@ -1,0 +1,6 @@
+View work tree status
+---------------------
+
+**Use git status to view your staged or unstaged changes**
+
+![git-status](media/git-status.png)
